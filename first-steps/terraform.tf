@@ -1,6 +1,6 @@
 ###main terraform configuration file
 terraform {
-  required_version = ">= 1.10 "
+  required_version = ">= 1.10"
 }
 terraform {
   backend "s3" {

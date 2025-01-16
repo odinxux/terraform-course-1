@@ -3,7 +3,7 @@ variable "region" {
   description = "The region in which the resources will be created"
   default     = "eu-west-2"
 }
-variable "instance_type" {
+variable "instance_types" {
   description = "The type of instance to create"
   type        = map
   default     = {
